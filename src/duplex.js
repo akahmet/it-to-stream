@@ -1,4 +1,4 @@
-const { Readable, Writable, Duplex } = require('stream')
+const { Readable, Writable, Duplex } = require('readable-stream')
 const getIterator = require('get-iterator')
 const Fifo = require('p-fifo')
 const { Buffer } = require('buffer')
